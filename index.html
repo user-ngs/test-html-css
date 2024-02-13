@@ -4,100 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бухгалтерские услуги</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.svg" alt="logo">
-        <p>BuhOne</p>
+    <header class="header">
+        <img class="header-img" src="./img/logo.svg" alt="logo">
+        <p class="header-title">BuhOne</p>
         <ul>
             <li>
-                <a href="tel:81112223344">
+                <a href="tel:81112223344" class="header-contact-link">
                     <img src="./img/phone-01.svg" alt="phone">
-                    <span>8 (111) 222-33-44</span>
+                    <span class="header-contact-text">8 (111) 222-33-44</span>
                 </a>
             </li>
             <li>
                 <img src="./img/clock.svg" alt="clock">
-                <span>Пн-Пт 10:00-18:00</span>
+                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
-                <a href="mailto:order@buhone">
+                <a href="mailto:order@buhone" class="header-contact-link">
                     <img src="./img/envelope-blue.svg" alt="envelope-blue">
-                    <span>order@buhone</span>                        
+                    <span class="header-contact-text">order@buhone</span>                        
                 </a>
             </li>
             <li>
                 <img src="./img/mark.svg" alt="mark">
-                <span>Невский пр. 130</span>
+                <span class="header-contact-text">Невский пр. 130</span>
             </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#">главная</a></li>
-                <li><a href="#">услуги</a></li>
-                <li><a href="#">кейсы</a></li>
-                <li><a href="#">о компании</a></li>
-                <li><a href="#">контакты</a></li>
+                <li><a href="#" class="header-nav-link">главная</a></li>
+                <li><a href="#" class="header-nav-link">услуги</a></li>
+                <li><a href="#" class="header-nav-link">кейсы</a></li>
+                <li><a href="#" class="header-nav-link">о компании</a></li>
+                <li><a href="#" class="header-nav-link">контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Бухгалтерские услуги в Санкт-Петербурге</h1>
-            <a href="#">Наша презентация</a>
+        <section class="desc">
+            <h1 class="desc-title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+            <a href="#" class="desc-link">Наша презентация</a>
         </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
-            <ul>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
+        <section class="service">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-subtitle">Мы специализируемся</p>
+            <ul class="service-list">
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
+                <li>
+                    <a href="#" class="service-item-link"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a>
+                </li>
             </ul>
         </section>
         <section>
-            <h2>О нас</h2>
-            <p>Компания <span>ИвановПром</span></p>
+            <h2 class="section-title">О нас</h2>
+            <p class="section-subtitle">Компания <span class="sectio n-sub-title-blue">ИвановПром</span></p>
             <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
             <ul>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено крупных сделок</h3>
+                    <a class="about-item-link" href="#">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено крупных сделок</h3>
+                    <a class="about-item-link" href="#">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено крупных сделок</h3>
+                    <a class="about-item-link" href="#">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
-                </li>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
-                </li>
-                <li>
-                    <p>90</p>
-                    <h3>Завершено крупных сделок</h3>
-                    <a href="#">Все кейсы</a>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено крупных сделок</h3>
+                    <a class="about-item-link" href="#">Все кейсы</a>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Наши клиенты</h2>
-            <p>С нами работают</p>
+            <h2 class="section-title">Наши клиенты</h2>
+            <p class="section-subtitle">С нами работают</p>
             <ul>
                 <li><img src="./img/logo-partner.png" alt="logo-partner"></li>
                 <li><img src="./img/logo-partner.png" alt="logo-partner"></li>
@@ -109,39 +116,36 @@
                 <li><img src="./img/logo-partner.png" alt="logo-partner"></li>
             </ul>
         </section>
-        <section>
-            <h2>Отзывы</h2>
-            <p>Ваши благодарности</p>
-            <button type="button">Оставить отзыв</button>
+        <section class="review">
+            <h2 class="section-title">Отзывы</h2>
+            <p class="section-subtitle">Ваши благодарности</p>
+            <button class="button" type="button">Оставить отзыв</button>
             <ul>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                <li class="review-item">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/woman-pic.png" alt="woman-pic">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО "Раз-Два" </p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО "Раз-Два" </p>
                 </li>
-                <li>
-                    <p>
-                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                    </p>
+                <li class="review-item">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/woman-pic.png" alt="woman-pic">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО "Раз-Два" </p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО "Раз-Два" </p>
                 </li>
-                <li>
-                    <p>
-                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                    </p>
+                <li class="review-item">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/woman-pic.png" alt="woman-pic">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО "Раз-Два" </p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО "Раз-Два" </p>
                 </li>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                <li class="review-item"> 
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/woman-pic.png" alt="woman-pic">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО "Раз-Два" </p>
-                </li>                
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО "Раз-Два" </p>
+                </li>
+                
             </ul>
             <ul>
                 <li><button type="button">1</button></li>
@@ -156,48 +160,53 @@
                 <img src="./img/arrow-right.png" alt="arrow-right">
             </button>
         </section>
-        <section>
-            <h2>Наши преимущества</h2>
-            <p>Мы предлагаем</p>
+        <section class="advantage">
+            <h2 class="section-title">Наши преимущества</h2>
+            <p class="section-subtitle">Мы предлагаем</p>
             <ul>
                 <li>
                     <img src="./img/quality-pic.png" alt="quality-pic">
-                    <p>Качество</p>
+                    <p class="advantage-desc">Качество</p>
                 </li>
                 <li>
                     <img src="./img/speed-pic.png" alt="speed-pic">
-                    <p>Оперативность</p>
+                    <p class="advantage-desc">Оперативность</p>
                 </li>
                 <li>
                     <img src="./img/expert-pic.png" alt="expert-pic">
-                    <p>Экспертность</p>
+                    <p class="advantage-desc">Экспертность</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <h2>Связь с нами</h2>
-        <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-        <ul>
-            <li>
-                <a href="tel:81112223344">
-                    <img src="./img/phone-02.svg" alt="phone-02">
-                    <span>+7 (111) 222-33-44</span>
-                </a>
-            </li>
-            <li>
-                a href="mailto:order@buhone">
-                    <img src="./img/envelope-white.svg" alt="envelope-white">
-                    <span>order@bu-one</span>                        
-                </a>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="footer-bkg">
+            <div>
+                <h2 class="section-subtitle white">Связь с нами</h2>
+                <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                <ul>
+                    <li>
+                        <a href="tel:81112223344">
+                            <img src="./img/phone-02.svg" alt="phone-02">
+                            <span class="footer-contact-text">+7 (111) 222-33-44</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:order@buhone">
+                            <img src="./img/envelope-white.svg" alt="envelope-white">
+                            <span class="footer-contact-text">order@bu-one</span>                        
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                форма
+                <button class="button">Отправить сообщение</button>
+            </div>
+        </div>        
         <div>
-            форма
-        </div>
-        <div>
-            <p>2019 (с) Все права защищены. БухОне.ру</p>
-            <p>Разработано: BuhOne</p>
+            <p class="footer-text">2019 (с) Все права защищены. БухОне.ру</p>
+            <p class="footer-text">Разработано: BuhOne</p>
         </div>
     </footer>
     <div>попап</div>
