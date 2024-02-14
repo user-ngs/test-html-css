@@ -85,9 +85,14 @@ body {
 }
 
 .service-item-link {    
-    background-color: #191E22;
     background-image: url(../img/screen-bkg-second.jpg);
+    background-size: cover;
     text-decoration: none;
+    width: 350px;
+    min-height: 360px;
+    display: block;
+    padding: 45px;
+    box-sizing: border-box;
 }
 
 .service-item-title {    
@@ -184,4 +189,9 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 19px;
+}
+
+.footer-link {
+    color: inherit;
+    text-decoration: none;
 }
